@@ -2,3 +2,58 @@
   prompt: "Escribe `suma(a, b)` que devuelva a + b."
   hints: ["Usa operadores aritméticos", "Devuelve el resultado"]
   tags: ["funciones", "aritmética"]
+  
+- title: "Convertir temperatura"
+  prompt: "Implementa `celsius_a_fahrenheit(celsius)` que convierta grados Celsius a Fahrenheit (F = C × 9/5 + 32)."
+  hints: ["Usa la fórmula matemática", "Multiplica por 9/5 y suma 32"]
+  tags: ["funciones", "matematicas"]
+
+- title: "Lista sin duplicados"
+  prompt: "Crea `eliminar_duplicados(lista)` que retorne una nueva lista sin elementos repetidos."
+  hints: ["Usa set() para eliminar duplicados", "Convierte de vuelta a lista"]
+  tags: ["listas", "conjuntos"]
+
+- title: "Sumar números pares"
+  prompt: "Escribe `suma_pares(lista)` que sume solo los números pares de una lista."
+  hints: ["Filtra números pares con %", "Usa sum() o un bucle"]
+  tags: ["listas", "filtros"]
+
+- title: "Longitud de palabras"
+  prompt: "Implementa `palabras_largas(frase, minimo)` que retorne palabras con más de 'minimo' caracteres."
+  hints: ["Divide la frase en palabras", "Filtra por longitud usando len()"]
+  tags: ["strings", "filtros"]
+
+- title: "Calculadora básica"
+  prompt: "Crea `calcular(a, b, operacion)` que realice +, -, *, / según el operador dado."
+  hints: ["Usa if/elif para cada operación", "Maneja la división por cero"]
+  tags: ["funciones", "condicionales"]
+
+- title: "Ordenar por edad"
+  prompt: "Escribe `ordenar_personas(personas)` que ordene una lista de diccionarios por la clave 'edad'."
+  hints: ["Usa sorted() con key=lambda", "Accede a la clave 'edad' del diccionario"]
+  tags: ["diccionarios", "ordenamiento"]
+
+- title: "Contar palabras"
+  prompt: "Implementa `contar_palabras(texto)` que cuente cuántas palabras hay en un texto."
+  hints: ["Usa split() para dividir en palabras", "Cuenta los elementos de la lista"]
+  tags: ["strings", "conteo"]
+
+- title: "Números en rango"
+  prompt: "Crea `numeros_en_rango(inicio, fin, paso)` que genere números desde inicio hasta fin con incremento paso."
+  hints: ["Usa range() con tres parámetros", "Convierte a lista si es necesario"]
+  tags: ["rangos", "generadores"]
+
+- title: "Validar email"
+  prompt: "Escribe `es_email_valido(email)` que verifique si un email tiene formato básico válido."
+  hints: ["Verifica que contenga @ y punto", "Usa split('@') para validar estructura"]
+  tags: ["strings", "validacion"]
+
+- title: "Media aritmética"
+  prompt: "Implementa `promedio(numeros)` que calcule el promedio de una lista de números."
+  hints: ["Suma todos los elementos", "Divide entre la cantidad de elementos"]
+  tags: ["matematicas", "estadisticas"]
+
+- title: "Formatear nombre"
+  prompt: "Crea `formatear_nombre(nombre_completo)` que convierta 'juan pérez' en 'Juan Pérez'."
+  hints: ["Usa title() o capitalize()", "Aplica a cada palabra separadamente"]
+  tags: ["strings", "formato"]
