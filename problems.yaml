@@ -2,3 +2,53 @@
   prompt: "Escribe `suma(a, b)` que devuelva a + b."
   hints: ["Usa operadores aritméticos", "Devuelve el resultado"]
   tags: ["funciones", "aritmética"]
+
+  - title: "Números pares"
+  prompt: "Escribe una función `es_par(numero)` que retorne True si el número es par, False si es impar."
+  hints: ["Usa el operador módulo %", "Un número par se divide exactamente entre 2"]
+  tags: ["funciones", "condicionales"]
+
+- title: "Contar caracteres"
+  prompt: "Crea una función `contar_vocales(texto)` que cuente cuántas vocales hay en una cadena."
+  hints: ["Recorre cada carácter", "Verifica si está en 'aeiouAEIOU'"]
+  tags: ["strings", "bucles"]
+
+- title: "Lista de cuadrados"
+  prompt: "Implementa `cuadrados(n)` que retorne una lista con los cuadrados de números del 1 al n."
+  hints: ["Usa list comprehension o un bucle", "Eleva cada número al cuadrado"]
+  tags: ["listas", "matematicas"]
+
+- title: "Palíndromo"
+  prompt: "Escribe `es_palindromo(palabra)` que determine si una palabra se lee igual al derecho y al revés."
+  hints: ["Compara la palabra con su reverso", "Usa slicing [::-1]"]
+  tags: ["strings", "algoritmos"]
+
+- title: "Factorial"
+  prompt: "Implementa `factorial(n)` que calcule el factorial de un número (n! = n × (n-1) × ... × 1)."
+  hints: ["Usa recursión o un bucle", "El factorial de 0 es 1"]
+  tags: ["matematicas", "recursion"]
+
+- title: "Máximo en lista"
+  prompt: "Crea `encontrar_maximo(lista)` que encuentre el número mayor en una lista sin usar max()."
+  hints: ["Asume que el primer elemento es el máximo", "Compara con cada elemento"]
+  tags: ["listas", "algoritmos"]
+
+- title: "Invertir cadena"
+  prompt: "Escribe `invertir_palabras(frase)` que invierta el orden de las palabras en una frase."
+  hints: ["Usa split() para dividir en palabras", "Invierte la lista y únela con join()"]
+  tags: ["strings", "listas"]
+
+- title: "Números primos"
+  prompt: "Implementa `es_primo(numero)` que determine si un número es primo."
+  hints: ["Un primo solo es divisible por 1 y él mismo", "Verifica divisores hasta la raíz cuadrada"]
+  tags: ["matematicas", "algoritmos"]
+
+- title: "Diccionario de frecuencias"
+  prompt: "Crea `contar_letras(texto)` que retorne un diccionario con la frecuencia de cada letra."
+  hints: ["Recorre cada carácter", "Usa get() o setdefault() para contar"]
+  tags: ["diccionarios", "strings"]
+
+- title: "Fibonacci"
+  prompt: "Escribe `fibonacci(n)` que genere los primeros n números de la secuencia de Fibonacci."
+  hints: ["Comienza con [0, 1]", "Cada nuevo número es la suma de los dos anteriores"]
+  tags: ["matematicas", "secuencias"]
